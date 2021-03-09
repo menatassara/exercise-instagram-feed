@@ -1,40 +1,77 @@
-body{
-    background: gray;
-    margin: 0;
-}
-div{
-    box-sizing: border-box;
-}
-header{
-    background: white;
-    padding: 10px;
-}
-header h1{
-    margin: 0;
-}
-div.post{
-    background: white;
-    margin-top: 10px;
-}
-div.post img{
-    width: 100%;
-}
-div.post .post-header div:first-child{
-    display: inline-block;
-    width: 80%;
-}
-div.post .post-header div:last-child{
-    display: inline-block;
-    width: 20%;
-    padding: 10px;
-    text-align: right;
-    color: gray;
-}
-div.post h2, div.post p{
-    padding: 10px;
-    margin: 0;
-}
-div.container{
-    width: 600px;
-    margin: auto;
-}
+body {
+	    background-color: lightgray;
+	    color: black;
+	    margin: 0;
+	    font-family: 'Open Sans', sans-serif;
+	}
+	
+
+	h1, h2, h3, h4, h5, p {
+	    margin: 0;
+	    padding: 0;
+	}
+	
+
+	header {
+	    background: white;
+	    padding: 25px;
+	    text-align: center;
+	}
+	main {
+	   
+	    margin-top: 50px;
+	}
+	
+
+	.bold {
+	    font-weight: bold;
+	}
+	.photobox {
+	    width: 500px;
+	    margin: 20px auto;
+	    background: white;
+	}
+	
+
+	.photoboxheader {
+	    display: flex;
+	    padding: 15px;
+	}
+	
+
+	.photoboxheader h3 {
+	    flex: 3;
+	    font-weight: bold;
+	}
+	.photoboxheader h5 {
+	    color: lightgray;
+	}
+	
+
+	.photobox-img01, .photobox-img02, .photobox-img03{
+	    width: 100%;
+	    height: 350px;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    background-size: cover;
+	}
+	.photobox-img01{
+	    background-image: url(https://www.elheraldo.hn/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=3tS7CQG1$3B$gZLvEPj8FM$daE2N3K4ZzOUsqbU5sYsYWIHoOaydfQezb88vHnmf6FB40xiOfUoExWL3M40tfzssyZqpeG_J0TFo7ZhRaDiHC9oxmioMlYVJD0A$3RbIiibgT65kY_CSDiCiUzvHvODrHApbd6ry6YGl5GGOZrs-&CONTENTTYPE=image/jpeg);
+	}
+	
+
+	.photobox-img02{
+	    background-image: url(https://estag.fimagenes.com/img/2/2/X/s/2Xs_900.jpg);
+	}
+	.photobox-img03{
+	    background-image: url(https://www.budgetbytes.com/wp-content/uploads/2019/09/Vegan-Creamy-Mushroom-Ramen-close.jpg);
+	}
+	.photobox img {
+	    width: 100%;
+	    border: 1px solid red;
+	}
+	
+
+	.photobox p {
+	    padding: 10px 15px;
+	}
